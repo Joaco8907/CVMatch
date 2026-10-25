@@ -4,11 +4,11 @@ Proyecto Full Stack desarrollado como trabajo grupal.
 
 ## Integrantes
 
-- Joaquín González
-- Daiana Tapia
-- Gabriel Choque
+- Joaquin Gonzalez
+- Dayana Tapia
+- Aylen Abalos
 - Sergio Lamas
-- Johana Valerio
+- Johanna Valerio
 
 ## Tecnologías
 
