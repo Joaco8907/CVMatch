@@ -1,0 +1,19 @@
+# Node
+node_modules/
+
+# Angular
+.angular/
+dist/
+
+# Variables locales
+.env
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
