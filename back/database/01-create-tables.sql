@@ -19,17 +19,11 @@ CREATE TABLE usuarios (
 
     nombre NVARCHAR(100) NOT NULL,
 
-    apellido NVARCHAR(100) NOT NULL,
-
     email NVARCHAR(150) NOT NULL UNIQUE,
 
-    password_hash NVARCHAR(255),
+    tipo_usuario NVARCHAR(20) NOT NULL,
 
-    rol NVARCHAR(20) NOT NULL,
-
-    activo BIT NOT NULL DEFAULT 1,
-
-    fecha_creacion DATETIME2 NOT NULL
+    fecha_registro DATETIME2 NOT NULL
         DEFAULT SYSDATETIME()
 );
 GO
