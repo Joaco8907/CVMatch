@@ -5,9 +5,22 @@ const obtenerUsuarios = (req, res) => {
   res.json(resultado);
 };
 
+const crearUsuario = (req, res) => {
+  const nuevoUsuario = req.body;
+  const respuesta = usuarioServicio.crearUsuarioServicio(nuevoUsuario);
+  if (respuesta === null) {
+    return res.status(400).json({
+      mensaje: "Datos del usuario incompletos",
+    });
+  }
+  res.status(201).json(respuesta);
+};
+
+
 
 module.exports = {
-  obtenerUsuarios
+  obtenerUsuarios,
+  crearUsuario
 };
 
 

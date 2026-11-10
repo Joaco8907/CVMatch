@@ -1,1 +1,12 @@
 GET HTTP://127.0.0.1:3000/api/usuarios
+
+###
+post HTTP://127.0.0.1:3000/api/usuarios
+Content-Type: application/json
+
+{
+  "nombre": "Manuel",
+  "email": "Manuel@example.com",
+  "tipo_usuario": "candidato",
+  "fecha_registro": "2026-10-03T10:00:00"
+}
